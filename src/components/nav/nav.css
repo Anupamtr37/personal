@@ -1,0 +1,66 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  z-index: 2;
+  position: fixed;
+  left: 38%;
+  bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  border-radius: 3rem;
+  padding: 0.7rem 1.7rem;
+  backdrop-filter: blur(15px);
+}
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+  background-color: var(--color-light);
+}
+
+/* ***************MEDIA QUERY(MEDIUM DEVICS)***************** */
+
+@media screen and (max-width: 1024px) {
+  nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    z-index: 2;
+    position: fixed;
+    left: 27%;
+    bottom: 4rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 3rem;
+    padding: 0.7rem 1.7rem;
+    backdrop-filter: blur(15px);
+  }
+}
+/* ***************MEDIA QUERY(SMALL DEVICS)***************** */
+
+@media screen and (max-width: 600px) {
+  nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    z-index: 2;
+    position: fixed;
+    left: 5%;
+    bottom: 3rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 3rem;
+    padding: 0.7rem 1.7rem;
+    backdrop-filter: blur(15px);
+  }
+}
